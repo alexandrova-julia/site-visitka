@@ -1,0 +1,22 @@
+#about {
+    background-color: #F5FCFF;
+}
+#about .inner {
+    max-width: 1308px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0;
+}
+#about .inner .photo {
+    max-width: 647px;
+    width: 100%;
+}
+#about .inner .text {
+    max-width: 590px;
+    width: 100%;
+}
+#about .inner .text p {
+    font-size: 32px;
+    color: #000000;
+    line-height: 39px;
+}

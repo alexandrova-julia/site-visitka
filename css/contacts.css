@@ -1,0 +1,84 @@
+#contacts {
+    background-color: #F5FCFF;
+}
+#contacts .inner {
+    max-width: 1168px;
+    justify-content: space-between;
+    padding: 68px 0 72px;
+}
+#contacts .inner .text {
+    max-width: 586px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+#contacts .inner .text p {
+    font-size: 20px;
+    color: #000000;
+}
+#contacts .inner .text p .blue-text {
+    color: #3186EB;
+    font-weight: 600;
+}
+#contacts .inner .text a {
+    font-size: 20px;
+    color: #000000;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#contacts .inner .text a.phone::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: url("../img/phone.png") 50% 50% no-repeat;
+}
+#contacts .inner .text a.email::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: url("../img/email.png") 50% 50% no-repeat;
+}
+#contacts .inner form {
+    max-width: 408px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+#contacts .inner form input:not([type=submit]), 
+#contacts .inner form textarea {
+    border-radius: 5px;
+    border: 0;
+    background-color: #C1EFFE;
+    font-size: 16px;
+    color: #90989D;
+    padding: 20px 15px;
+}
+#contacts .inner form input:not([type=submit])::placeholder, 
+#contacts .inner form textarea::placeholder {
+    font-size: 16px;
+    color: #90989D;
+}
+#contacts .inner form input:not([type=submit]) {
+    height: 57px;
+}
+#contacts .inner form textarea {
+    height: 100px;
+    resize: none;
+}
+#contacts .inner form input[type=submit] {
+    font-size: 20px;
+    background-color: #3186EB;
+    color: #ffffff;
+    height: 60px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+#contacts .inner form input[type=submit]:hover {
+    background-color: #F5FCFF;
+    color: #3186EB;
+    border: 1px solid #3186EB;
+}

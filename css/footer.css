@@ -1,0 +1,21 @@
+footer {
+    min-height: 166px;
+    background-color: #C1EFFE;
+}
+footer .inner {
+    justify-content: space-between;
+    align-items: center;
+}
+footer .inner .copyrights {
+    font-size: 18px;
+    color: #000000;
+}
+footer .inner a.top {
+    display: block;
+    width: 63px;
+    height: 58px;
+    position: fixed;
+    right: 89px;
+    bottom: 58px;
+    background-image: url(../img/arrow-up.png);
+}

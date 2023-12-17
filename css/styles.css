@@ -1,0 +1,38 @@
+@import url("fonts.css");
+@import url("reset.css");
+@import url("header.css");
+@import url("about.css");
+@import url("projects.css");
+@import url("contacts.css");
+@import url("footer.css");
+
+h1 {
+    font-size: 50px;
+    color: #000000;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+h2 { 
+    font-size: 32px;
+    color: #000000;
+}
+.inner {
+    width: 100%;
+    max-width: 1449px;
+    display: flex;
+    flex-wrap: wrap;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+main {
+    flex-grow: 1;
+}
+section, header, footer {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
